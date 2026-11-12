@@ -1,0 +1,9 @@
+
+=== Fri Oct 17 16:10:36 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.21 to 2.0.22
+  com.unity.memoryprofiler from version 1.0.0 to 1.1.0

@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D069EF75-A8CB-E7AF-1C15-9EC4C38F445B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.RenderPipelines.Universal.Shaders</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\Player\</OutputPath>
+    <DefineConstants>UNITY_2022_3_2;UNITY_2022_3;UNITY_2022;TUANJIE_1_2_3;TUANJIE_1_2;TUANJIE_1;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;TUANJIE_2022_3_OR_NEWER;TUANJIE_1_0_OR_NEWER;TUANJIE_1_1_OR_NEWER;TUANJIE_1_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;UNITY_GPU_DRIVEN_PIPELINE;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;STARTER_ASSETS_PACKAGES_CHECKED;URP_EXPERIMENTAL_TAA_ENABLE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.2t16</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="F:\UnityEditor\2022.3.2t16\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="F:\UnityEditor\2022.3.2t16\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Shaders.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SpatialMappingOcclusion.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BakedLitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesSimpleLitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitMetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesSimpleLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\StopNaN.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\LitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitBase.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7Input.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\PaniniProjection.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\Blit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\CoreBlitColorAndDepth.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\LitGBufferPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTreeUtility.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Sprite-Lit-Default.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Sprite-Unlit-Default.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\UnlitMetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\TemporalAA.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\SubpixelMorphologicalAntialiasing.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\CoreBlit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Lit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\LightingUtility.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesUnlitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Light2D-Point.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Sprite-Mask.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7Passes.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BakedLitMetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\Sampling.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesUnlit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\XR\XROcclusionMesh.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Shadow2D-Shadow-Sprite.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BRGPicking.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainDetailLitPasses.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Unity.RenderPipelines.Universal.Shaders.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\WavingGrassPasses.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\FinalPost.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\LitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\InputData2D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7CommonInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Unlit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\LutBuilderLdr.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesSimpleLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7CommonPasses.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\CameraMotionVectors.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\XR\XRMirrorView.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\WavingGrass.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree8Passes.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BakedLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\EdgeAdaptiveSpatialUpsampling.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BakedLitDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLitDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\LitDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\CopyDepth.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\FallbackError.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainDetailLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\UnlitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Debug\HDRDebugView.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\Universal2D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Shadow2D-Unshadow-Geometry.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\ShadowProjectVertex.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\CopyDepthPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\WavingGrassDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesEditorPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\DepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Light2D-Point-Volumetric.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Light2D-Shape.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\UberPost.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\UnlitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\CombinedShapeLightShared.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\ScreenSpaceAmbientOcclusion.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\SurfaceData2D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesLitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\BlitHDROverlay.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SpatialMappingWireframe.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\ScalingSetup.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\WavingGrassBillboard.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7BillboardInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree8.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\NormalsRenderingShared.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Include\SpriteMaskShared.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\StencilDeferred.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesDepthOnlyPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree8Input.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\DepthOnlyPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitAdd.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\BokehDepthOfField.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainDetailLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\ShadowCasterPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\WavingGrassInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesSimpleLitGBufferPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\Common.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\ObjectMotionVectors.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7BillboardPasses.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\BakedLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\LensFlareDataDriven.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesLitGbufferPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\LitMetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\LutBuilderHdr.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Particles\ParticlesUnlitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\TemporalAA.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitPasses.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLitInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\XR\XRMirrorView.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\CameraMotionBlur.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\GaussianDepthOfField.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7Billboard.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Light2D-Shape-Volumetric.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Shadow2D-Projected.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\UnlitDepthNormalsPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\2D\Shadow2D-Unshadow-Sprite.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLitForwardPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\ComplexLit.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Nature\SpeedTree7.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\ScreenSpaceShadows.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\SubpixelMorphologicalAntialiasing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\PostProcessing\Bloom.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\MaterialError.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLitGBufferPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\FallbackLoading.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Terrain\TerrainLitBasemapGen.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Utils\Deferred.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\Debug\DebugReplacement.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Shaders\SimpleLitMetaPass.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.OpenHarmonyJSModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.OpenHarmonyJSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextureManagerModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextureManagerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>F:\RenderStreaming\UnityRenderStreaming_Mutilple_Process\com.unity.renderstreaming\Runtime\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>F:\UnityEditor\2022.3.2t16\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{07C4977C-8CC2-1E3F-9AA7-7978A5F40621}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
