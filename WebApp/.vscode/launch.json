@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Master",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\build\\index.js",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/build/**/*.js"
+            ],
+            "args": [
+                "-st", "master","-ip", "10.0.104.16","-p", "8080",
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Slave 0",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\build\\index.js",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/build/**/*.js"
+            ],
+            "args": [
+                "-st", "slave","-ma", "10.0.104.16", "-mp", "8080", "-ip", "10.0.104.16", "-p", "8081",
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Slave 1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\build\\index.js",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/build/**/*.js"
+            ],
+            "args": [
+                "-st", "slave","-ma", "10.0.104.16", "-mp", "8080", "-ip", "10.0.104.16", "-p", "8082",
+            ]
+        }
+    ]
+}
